@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4AF04673203511120025513F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF04672203511120025513F /* AppDelegate.swift */; };
-		4AF04675203511120025513F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF04674203511120025513F /* ViewController.swift */; };
+		4AF04675203511120025513F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF04674203511120025513F /* MainViewController.swift */; };
 		4AF04677203511120025513F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF04676203511120025513F /* Assets.xcassets */; };
 		4AF0467A203511120025513F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF04678203511120025513F /* Main.storyboard */; };
 		4AF04686203511120025513F /* RanDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF04685203511120025513F /* RanDiceTests.swift */; };
+		4AF04695203513DA0025513F /* Randomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF04694203513DA0025513F /* Randomizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +28,7 @@
 /* Begin PBXFileReference section */
 		4AF0466F203511120025513F /* RanDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF04672203511120025513F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AF04674203511120025513F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AF04674203511120025513F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4AF04676203511120025513F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AF04679203511120025513F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AF0467B203511120025513F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +36,7 @@
 		4AF04681203511120025513F /* RanDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RanDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF04685203511120025513F /* RanDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanDiceTests.swift; sourceTree = "<group>"; };
 		4AF04687203511120025513F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF04694203513DA0025513F /* Randomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,10 @@
 			isa = PBXGroup;
 			children = (
 				4AF04672203511120025513F /* AppDelegate.swift */,
-				4AF04674203511120025513F /* ViewController.swift */,
-				4AF04676203511120025513F /* Assets.xcassets */,
-				4AF04678203511120025513F /* Main.storyboard */,
-				4AF0467B203511120025513F /* Info.plist */,
-				4AF0467C203511120025513F /* RanDice.entitlements */,
+				4AF04690203511230025513F /* Controllers */,
+				4AF04693203513C30025513F /* Model */,
+				4AF04692203511710025513F /* Storyboard */,
+				4AF046912035112C0025513F /* Supporting Files */,
 			);
 			path = RanDice;
 			sourceTree = "<group>";
@@ -93,6 +94,40 @@
 				4AF04687203511120025513F /* Info.plist */,
 			);
 			path = RanDiceTests;
+			sourceTree = "<group>";
+		};
+		4AF04690203511230025513F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AF04674203511120025513F /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4AF046912035112C0025513F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AF04676203511120025513F /* Assets.xcassets */,
+				4AF0467B203511120025513F /* Info.plist */,
+				4AF0467C203511120025513F /* RanDice.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AF04692203511710025513F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4AF04678203511120025513F /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4AF04693203513C30025513F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AF04694203513DA0025513F /* Randomizer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF04675203511120025513F /* ViewController.swift in Sources */,
+				4AF04695203513DA0025513F /* Randomizer.swift in Sources */,
+				4AF04675203511120025513F /* MainViewController.swift in Sources */,
 				4AF04673203511120025513F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,11 +378,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = RanDice/RanDice.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "RanDice/Supporting Files/RanDice.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y3RCB36D2R;
-				INFOPLIST_FILE = RanDice/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RanDice/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roudique.RanDice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,11 +394,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = RanDice/RanDice.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "RanDice/Supporting Files/RanDice.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y3RCB36D2R;
-				INFOPLIST_FILE = RanDice/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RanDice/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roudique.RanDice;
 				PRODUCT_NAME = "$(TARGET_NAME)";

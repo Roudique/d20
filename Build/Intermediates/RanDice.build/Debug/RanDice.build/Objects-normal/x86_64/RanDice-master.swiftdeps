@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "05af2a46d5de4b19350e5e6fab6b4bcf"
+build_time: [1518658743, 862686000]
+inputs:
+  "/Users/oleksandrrudavka/Developer/RanDice/RanDice/Model/Randomizer.swift": [1518658697, 0]
+  "/Users/oleksandrrudavka/Developer/RanDice/RanDice/Controllers/MainViewController.swift": [1518658743, 0]
+  "/Users/oleksandrrudavka/Developer/RanDice/RanDice/AppDelegate.swift": [1518655890, 0]

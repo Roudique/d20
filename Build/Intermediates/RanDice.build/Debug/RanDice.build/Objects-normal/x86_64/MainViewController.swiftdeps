@@ -1,0 +1,445 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RDQMainViewController"
+provides-nominal:
+- "7RanDice21RDQMainViewControllerC"
+provides-member:
+- ["7RanDice21RDQMainViewControllerC", ""]
+provides-dynamic-lookup:
+- "resultLabel"
+- "rollAction"
+- "selectDicePopup"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "NSPopUpButton"
+- "NSTextField"
+- "NSViewController"
+- !private "RDQDice"
+- "RDQMainViewController"
+- !private "RDQRandomizer"
+- !private "StringLiteralType"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "RDQDice"]
+- !private ["s7CVarArgP", "RDQRandomizer"]
+- !private ["s7CVarArgP", "addItems"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeAllItems"]
+- !private ["s7CVarArgP", "resultLabel"]
+- !private ["s7CVarArgP", "roll"]
+- !private ["s7CVarArgP", "selectDicePopup"]
+- !private ["s7CVarArgP", "selectedItem"]
+- !private ["s7CVarArgP", "setupDicePopup"]
+- !private ["s7CVarArgP", "setupUI"]
+- !private ["s7CVarArgP", "stringValue"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "RDQDice"]
+- !private ["s28CustomDebugStringConvertibleP", "RDQRandomizer"]
+- !private ["s28CustomDebugStringConvertibleP", "addItems"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAllItems"]
+- !private ["s28CustomDebugStringConvertibleP", "resultLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "roll"]
+- !private ["s28CustomDebugStringConvertibleP", "selectDicePopup"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedItem"]
+- !private ["s28CustomDebugStringConvertibleP", "setupDicePopup"]
+- !private ["s28CustomDebugStringConvertibleP", "setupUI"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "RDQDice"]
+- !private ["s23CustomStringConvertibleP", "RDQRandomizer"]
+- !private ["s23CustomStringConvertibleP", "addItems"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "removeAllItems"]
+- !private ["s23CustomStringConvertibleP", "resultLabel"]
+- !private ["s23CustomStringConvertibleP", "roll"]
+- !private ["s23CustomStringConvertibleP", "selectDicePopup"]
+- !private ["s23CustomStringConvertibleP", "selectedItem"]
+- !private ["s23CustomStringConvertibleP", "setupDicePopup"]
+- !private ["s23CustomStringConvertibleP", "setupUI"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "RDQDice"]
+- !private ["s9EquatableP", "RDQRandomizer"]
+- !private ["s9EquatableP", "addItems"]
+- !private ["s9EquatableP", "allValuNames"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "removeAllItems"]
+- !private ["s9EquatableP", "resultLabel"]
+- !private ["s9EquatableP", "roll"]
+- !private ["s9EquatableP", "selectDicePopup"]
+- !private ["s9EquatableP", "selectedItem"]
+- !private ["s9EquatableP", "setupDicePopup"]
+- !private ["s9EquatableP", "setupUI"]
+- !private ["s9EquatableP", "stringValue"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "RDQDice"]
+- !private ["s8HashableP", "RDQRandomizer"]
+- !private ["s8HashableP", "addItems"]
+- !private ["s8HashableP", "allValuNames"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "removeAllItems"]
+- !private ["s8HashableP", "resultLabel"]
+- !private ["s8HashableP", "roll"]
+- !private ["s8HashableP", "selectDicePopup"]
+- !private ["s8HashableP", "selectedItem"]
+- !private ["s8HashableP", "setupDicePopup"]
+- !private ["s8HashableP", "setupUI"]
+- !private ["s8HashableP", "stringValue"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So15NSAccessibilityP", "addItems"]
+- !private ["So15NSAccessibilityP", "removeAllItems"]
+- !private ["So15NSAccessibilityP", "selectedItem"]
+- !private ["So15NSAccessibilityP", "stringValue"]
+- !private ["So15NSAccessibilityP", "title"]
+- !private ["So21NSAccessibilityButtonP", "addItems"]
+- !private ["So21NSAccessibilityButtonP", "removeAllItems"]
+- !private ["So21NSAccessibilityButtonP", "selectedItem"]
+- !private ["So30NSAccessibilityElementProtocolP", "addItems"]
+- !private ["So30NSAccessibilityElementProtocolP", "removeAllItems"]
+- !private ["So30NSAccessibilityElementProtocolP", "selectedItem"]
+- !private ["So30NSAccessibilityElementProtocolP", "stringValue"]
+- !private ["So30NSAccessibilityElementProtocolP", "title"]
+- !private ["So34NSAccessibilityNavigableStaticTextP", "stringValue"]
+- !private ["So25NSAccessibilityStaticTextP", "stringValue"]
+- !private ["So29NSAnimatablePropertyContainerP", "addItems"]
+- !private ["So29NSAnimatablePropertyContainerP", "removeAllItems"]
+- !private ["So29NSAnimatablePropertyContainerP", "selectedItem"]
+- !private ["So29NSAnimatablePropertyContainerP", "stringValue"]
+- !private ["So25NSAppearanceCustomizationP", "addItems"]
+- !private ["So25NSAppearanceCustomizationP", "removeAllItems"]
+- !private ["So25NSAppearanceCustomizationP", "selectedItem"]
+- !private ["So25NSAppearanceCustomizationP", "stringValue"]
+- !private ["So8NSButtonC", "addItems"]
+- !private ["So8NSButtonC", "removeAllItems"]
+- !private ["So8NSButtonC", "selectedItem"]
+- !private ["So8NSCodingP", "RDQDice"]
+- !private ["So8NSCodingP", "RDQRandomizer"]
+- !private ["So8NSCodingP", "addItems"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "removeAllItems"]
+- !private ["So8NSCodingP", "resultLabel"]
+- !private ["So8NSCodingP", "selectDicePopup"]
+- !private ["So8NSCodingP", "selectedItem"]
+- !private ["So8NSCodingP", "setupDicePopup"]
+- !private ["So8NSCodingP", "setupUI"]
+- !private ["So8NSCodingP", "stringValue"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSControlC", "addItems"]
+- !private ["So9NSControlC", "removeAllItems"]
+- !private ["So9NSControlC", "selectedItem"]
+- !private ["So9NSControlC", "stringValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "title"]
+- !private ["So21NSDraggingDestinationP", "addItems"]
+- !private ["So21NSDraggingDestinationP", "removeAllItems"]
+- !private ["So21NSDraggingDestinationP", "selectedItem"]
+- !private ["So21NSDraggingDestinationP", "stringValue"]
+- !private ["So26NSExtensionRequestHandlingP", "RDQDice"]
+- !private ["So26NSExtensionRequestHandlingP", "RDQRandomizer"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "resultLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "selectDicePopup"]
+- !private ["So26NSExtensionRequestHandlingP", "setupDicePopup"]
+- !private ["So26NSExtensionRequestHandlingP", "setupUI"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So10NSMenuItemC", "title"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "NSPopUpButton"]
+- ["So8NSObjectC", "NSTextField"]
+- !private ["So8NSObjectC", "RDQDice"]
+- !private ["So8NSObjectC", "RDQRandomizer"]
+- !private ["So8NSObjectC", "addItems"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "removeAllItems"]
+- ["So8NSObjectC", "resultLabel"]
+- !private ["So8NSObjectC", "roll"]
+- ["So8NSObjectC", "rollAction"]
+- ["So8NSObjectC", "selectDicePopup"]
+- !private ["So8NSObjectC", "selectedItem"]
+- ["So8NSObjectC", "setupDicePopup"]
+- ["So8NSObjectC", "setupUI"]
+- !private ["So8NSObjectC", "stringValue"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "RDQDice"]
+- !private ["So16NSObjectProtocolP", "RDQRandomizer"]
+- !private ["So16NSObjectProtocolP", "addItems"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "removeAllItems"]
+- !private ["So16NSObjectProtocolP", "resultLabel"]
+- !private ["So16NSObjectProtocolP", "roll"]
+- !private ["So16NSObjectProtocolP", "selectDicePopup"]
+- !private ["So16NSObjectProtocolP", "selectedItem"]
+- !private ["So16NSObjectProtocolP", "setupDicePopup"]
+- !private ["So16NSObjectProtocolP", "setupUI"]
+- !private ["So16NSObjectProtocolP", "stringValue"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardWritingP", "init"]
+- !private ["So13NSPopUpButtonC", "addItems"]
+- !private ["So13NSPopUpButtonC", "removeAllItems"]
+- !private ["So13NSPopUpButtonC", "selectedItem"]
+- ["So11NSResponderC", "NSPopUpButton"]
+- ["So11NSResponderC", "NSTextField"]
+- !private ["So11NSResponderC", "RDQDice"]
+- !private ["So11NSResponderC", "RDQRandomizer"]
+- !private ["So11NSResponderC", "addItems"]
+- ["So11NSResponderC", "init"]
+- !private ["So11NSResponderC", "removeAllItems"]
+- ["So11NSResponderC", "resultLabel"]
+- ["So11NSResponderC", "rollAction"]
+- ["So11NSResponderC", "selectDicePopup"]
+- !private ["So11NSResponderC", "selectedItem"]
+- ["So11NSResponderC", "setupDicePopup"]
+- ["So11NSResponderC", "setupUI"]
+- !private ["So11NSResponderC", "stringValue"]
+- ["So11NSResponderC", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So17NSSeguePerformingP", "RDQDice"]
+- !private ["So17NSSeguePerformingP", "RDQRandomizer"]
+- !private ["So17NSSeguePerformingP", "init"]
+- !private ["So17NSSeguePerformingP", "resultLabel"]
+- !private ["So17NSSeguePerformingP", "selectDicePopup"]
+- !private ["So17NSSeguePerformingP", "setupDicePopup"]
+- !private ["So17NSSeguePerformingP", "setupUI"]
+- !private ["So17NSSeguePerformingP", "viewDidLoad"]
+- ["So17NSSeguePerformingP", ""]
+- !private ["So8NSStringC", "init"]
+- !private ["So11NSTextFieldC", "stringValue"]
+- !private ["So18NSTouchBarProviderP", "RDQDice"]
+- !private ["So18NSTouchBarProviderP", "RDQRandomizer"]
+- !private ["So18NSTouchBarProviderP", "addItems"]
+- !private ["So18NSTouchBarProviderP", "init"]
+- !private ["So18NSTouchBarProviderP", "removeAllItems"]
+- !private ["So18NSTouchBarProviderP", "resultLabel"]
+- !private ["So18NSTouchBarProviderP", "selectDicePopup"]
+- !private ["So18NSTouchBarProviderP", "selectedItem"]
+- !private ["So18NSTouchBarProviderP", "setupDicePopup"]
+- !private ["So18NSTouchBarProviderP", "setupUI"]
+- !private ["So18NSTouchBarProviderP", "stringValue"]
+- !private ["So18NSTouchBarProviderP", "viewDidLoad"]
+- ["So18NSTouchBarProviderP", ""]
+- !private ["So33NSUserInterfaceItemIdentificationP", "RDQDice"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "RDQRandomizer"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "addItems"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "init"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "removeAllItems"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "resultLabel"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "selectDicePopup"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "selectedItem"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "setupDicePopup"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "setupUI"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "stringValue"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "title"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "viewDidLoad"]
+- ["So33NSUserInterfaceItemIdentificationP", ""]
+- !private ["So26NSUserInterfaceValidationsP", "addItems"]
+- !private ["So26NSUserInterfaceValidationsP", "removeAllItems"]
+- !private ["So26NSUserInterfaceValidationsP", "selectedItem"]
+- !private ["So26NSUserInterfaceValidationsP", "stringValue"]
+- !private ["So28NSValidatedUserInterfaceItemP", "title"]
+- !private ["So6NSViewC", "addItems"]
+- !private ["So6NSViewC", "removeAllItems"]
+- !private ["So6NSViewC", "selectedItem"]
+- !private ["So6NSViewC", "stringValue"]
+- ["So16NSViewControllerC", "NSPopUpButton"]
+- ["So16NSViewControllerC", "NSTextField"]
+- !private ["So16NSViewControllerC", "RDQDice"]
+- !private ["So16NSViewControllerC", "RDQRandomizer"]
+- ["So16NSViewControllerC", "init"]
+- ["So16NSViewControllerC", "resultLabel"]
+- ["So16NSViewControllerC", "rollAction"]
+- ["So16NSViewControllerC", "selectDicePopup"]
+- ["So16NSViewControllerC", "setupDicePopup"]
+- ["So16NSViewControllerC", "setupUI"]
+- ["So16NSViewControllerC", "viewDidLoad"]
+- ["So16NSViewControllerC", ""]
+- !private ["7RanDice7RDQDiceO", "allValuNames"]
+- !private ["7RanDice7RDQDiceO", "init"]
+- ["7RanDice21RDQMainViewControllerC", "NSPopUpButton"]
+- ["7RanDice21RDQMainViewControllerC", "NSTextField"]
+- !private ["7RanDice21RDQMainViewControllerC", "RDQDice"]
+- !private ["7RanDice21RDQMainViewControllerC", "RDQRandomizer"]
+- ["7RanDice21RDQMainViewControllerC", "deinit"]
+- ["7RanDice21RDQMainViewControllerC", "init"]
+- ["7RanDice21RDQMainViewControllerC", "resultLabel"]
+- ["7RanDice21RDQMainViewControllerC", "rollAction"]
+- ["7RanDice21RDQMainViewControllerC", "selectDicePopup"]
+- ["7RanDice21RDQMainViewControllerC", "setupDicePopup"]
+- ["7RanDice21RDQMainViewControllerC", "setupUI"]
+- ["7RanDice21RDQMainViewControllerC", "viewDidLoad"]
+- !private ["7RanDice13RDQRandomizerC", "roll"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "allValuNames"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addItems"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeAllItems"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedItem"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "stringValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RDQDice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RDQRandomizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAllItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resultLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "roll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectDicePopup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupDicePopup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupUI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stringValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So15NSAccessibilityP"
+- !private "So21NSAccessibilityButtonP"
+- !private "So30NSAccessibilityElementProtocolP"
+- !private "So34NSAccessibilityNavigableStaticTextP"
+- !private "So25NSAccessibilityStaticTextP"
+- !private "So29NSAnimatablePropertyContainerP"
+- !private "So25NSAppearanceCustomizationP"
+- !private "So8NSButtonC"
+- "So8NSCodingP"
+- !private "So9NSControlC"
+- !private "So9NSCopyingP"
+- !private "So21NSDraggingDestinationP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So10NSMenuItemC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So13NSPopUpButtonC"
+- "So11NSResponderC"
+- !private "So14NSSecureCodingP"
+- "So17NSSeguePerformingP"
+- !private "So8NSStringC"
+- !private "So11NSTextFieldC"
+- "So18NSTouchBarProviderP"
+- "So33NSUserInterfaceItemIdentificationP"
+- !private "So26NSUserInterfaceValidationsP"
+- !private "So28NSValidatedUserInterfaceItemP"
+- !private "So6NSViewC"
+- "So16NSViewControllerC"
+- !private "7RanDice7RDQDiceO"
+- "7RanDice21RDQMainViewControllerC"
+- !private "7RanDice13RDQRandomizerC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "3af87bc6b71c1db4380392d3682b44b3"
