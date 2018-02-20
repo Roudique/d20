@@ -194,10 +194,18 @@ SWIFT_CLASS("_TtC7RanDice11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSPopUpButton;
-@class NSTextField;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC7RanDice14DiceController")
+@interface DiceController : NSViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSNibName _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSPopUpButton;
+@class NSTextField;
 
 SWIFT_CLASS("_TtC7RanDice21RDQMainViewController")
 @interface RDQMainViewController : NSViewController

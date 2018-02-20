@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -754,6 +755,66 @@
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Mvt-if-JM1">
+            <objects>
+                <viewController id="Rek-lc-Shb" sceneMemberID="viewController">
+                    <view key="view" id="cEv-rK-j3f">
+                        <rect key="frame" x="0.0" y="0.0" width="290" height="604"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <stackView distribution="fillEqually" orientation="vertical" alignment="centerX" spacing="4" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M09-3U-CqX">
+                                <rect key="frame" x="0.0" y="0.0" width="290" height="604"/>
+                                <subviews>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="OwD-35-mMW">
+                                        <rect key="frame" x="0.0" y="486" width="290" height="118"/>
+                                    </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Pj5-Z7-wW3">
+                                        <rect key="frame" x="0.0" y="365" width="290" height="117"/>
+                                    </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="gUS-Lh-8wz">
+                                        <rect key="frame" x="0.0" y="243" width="290" height="118"/>
+                                    </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="UYK-iD-ChK">
+                                        <rect key="frame" x="0.0" y="122" width="290" height="117"/>
+                                    </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="OL8-7o-zGg">
+                                        <rect key="frame" x="0.0" y="0.0" width="290" height="118"/>
+                                    </customView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Pj5-Z7-wW3" firstAttribute="width" secondItem="M09-3U-CqX" secondAttribute="width" id="5O4-Lq-Ufh"/>
+                                    <constraint firstItem="OwD-35-mMW" firstAttribute="width" secondItem="M09-3U-CqX" secondAttribute="width" id="9xe-Xk-ib9"/>
+                                    <constraint firstItem="gUS-Lh-8wz" firstAttribute="width" secondItem="M09-3U-CqX" secondAttribute="width" id="BJk-C8-ZTZ"/>
+                                </constraints>
+                                <visibilityPriorities>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                </visibilityPriorities>
+                                <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                </customSpacing>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="M09-3U-CqX" secondAttribute="trailing" id="J7I-Zi-snQ"/>
+                            <constraint firstItem="M09-3U-CqX" firstAttribute="top" secondItem="cEv-rK-j3f" secondAttribute="top" id="LF6-Ho-ZFv"/>
+                            <constraint firstItem="M09-3U-CqX" firstAttribute="leading" secondItem="cEv-rK-j3f" secondAttribute="leading" id="Zwh-5i-zZM"/>
+                            <constraint firstAttribute="bottom" secondItem="M09-3U-CqX" secondAttribute="bottom" id="qvk-1J-ftV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="usy-SE-qYZ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="1358"/>
         </scene>
     </scenes>
 </document>

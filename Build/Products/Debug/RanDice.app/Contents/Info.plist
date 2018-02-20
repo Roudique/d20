@@ -8,6 +8,10 @@
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>RanDice</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.roudique.RanDice</string>
 	<key>CFBundleInfoDictionaryVersion</key>
