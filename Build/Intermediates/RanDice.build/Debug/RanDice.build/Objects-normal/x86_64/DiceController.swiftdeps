@@ -1,15 +1,17 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "DiceController"
+- "RDQDiceController"
 provides-nominal:
-- "7RanDice0B10ControllerC"
+- "7RanDice17RDQDiceControllerC"
 provides-member:
-- ["7RanDice0B10ControllerC", ""]
+- ["7RanDice17RDQDiceControllerC", ""]
 provides-dynamic-lookup:
+- "rollButton"
 - "viewDidLoad"
 depends-top-level:
-- "DiceController"
+- "NSButton"
 - "NSViewController"
+- "RDQDiceController"
 depends-member:
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "viewDidLoad"]
@@ -20,9 +22,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", ""]
-- ["7RanDice0B10ControllerC", "deinit"]
-- ["7RanDice0B10ControllerC", "init"]
-- ["7RanDice0B10ControllerC", "viewDidLoad"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - ["s9EquatableP", ""]
@@ -35,12 +34,16 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- ["So8NSObjectC", "NSButton"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "rollButton"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
+- ["So11NSResponderC", "NSButton"]
 - ["So11NSResponderC", "init"]
+- ["So11NSResponderC", "rollButton"]
 - ["So11NSResponderC", "viewDidLoad"]
 - !private ["So17NSSeguePerformingP", "init"]
 - !private ["So17NSSeguePerformingP", "viewDidLoad"]
@@ -51,9 +54,16 @@ depends-member:
 - !private ["So33NSUserInterfaceItemIdentificationP", "init"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "viewDidLoad"]
 - ["So33NSUserInterfaceItemIdentificationP", ""]
+- ["So16NSViewControllerC", "NSButton"]
 - ["So16NSViewControllerC", "init"]
+- ["So16NSViewControllerC", "rollButton"]
 - ["So16NSViewControllerC", "viewDidLoad"]
 - ["So16NSViewControllerC", ""]
+- ["7RanDice17RDQDiceControllerC", "NSButton"]
+- ["7RanDice17RDQDiceControllerC", "deinit"]
+- ["7RanDice17RDQDiceControllerC", "init"]
+- ["7RanDice17RDQDiceControllerC", "rollButton"]
+- ["7RanDice17RDQDiceControllerC", "viewDidLoad"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -61,7 +71,6 @@ depends-nominal:
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
-- "7RanDice0B10ControllerC"
 - "s9EquatableP"
 - "s8HashableP"
 - "So8NSCodingP"
@@ -73,6 +82,7 @@ depends-nominal:
 - "So18NSTouchBarProviderP"
 - "So33NSUserInterfaceItemIdentificationP"
 - "So16NSViewControllerC"
+- "7RanDice17RDQDiceControllerC"
 - "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:
@@ -103,4 +113,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "0b3a65690715aad5db2e13e310e0480a"
+interface-hash: "5f4e6724b5801e195fe19fde611f6904"

@@ -194,11 +194,13 @@ SWIFT_CLASS("_TtC7RanDice11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSButton;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC7RanDice14DiceController")
-@interface DiceController : NSViewController
+SWIFT_CLASS("_TtC7RanDice17RDQDiceController")
+@interface RDQDiceController : NSViewController
+@property (nonatomic, weak) IBOutlet NSButton * _Null_unspecified rollButton;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSNibName _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -214,6 +216,15 @@ SWIFT_CLASS("_TtC7RanDice21RDQMainViewController")
 - (void)viewDidLoad;
 - (IBAction)rollAction:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSNibName _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSWindow;
+
+SWIFT_CLASS("_TtC7RanDice23RDQMainWindowController")
+@interface RDQMainWindowController : NSWindowController
+- (void)windowDidLoad;
+- (nonnull instancetype)initWithWindow:(NSWindow * _Nullable)window OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 

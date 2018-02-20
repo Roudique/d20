@@ -8,11 +8,11 @@
 
 import Cocoa
 
-class DiceController: NSViewController {
-
+class RDQDiceController: NSViewController {
+    @IBOutlet weak var rollButton: NSButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
     }
     
 }

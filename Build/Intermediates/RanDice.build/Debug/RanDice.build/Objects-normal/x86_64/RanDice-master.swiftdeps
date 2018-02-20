@@ -1,8 +1,9 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "05af2a46d5de4b19350e5e6fab6b4bcf"
-build_time: [1518809601, 37453000]
+build_time: [1519159994, 932492000]
 inputs:
-  "/Users/oleksandrrudavka/Developer/RanDice/RanDice/Controllers/DiceController.swift": [9223372036, 854775807]
+  "/Users/oleksandrrudavka/Developer/RanDice/RanDice/Controllers/DiceController.swift": [1519159701, 0]
   "/Users/oleksandrrudavka/Developer/RanDice/RanDice/Model/Randomizer.swift": [1518658697, 0]
   "/Users/oleksandrrudavka/Developer/RanDice/RanDice/Controllers/MainViewController.swift": [1518658972, 0]
-  "/Users/oleksandrrudavka/Developer/RanDice/RanDice/AppDelegate.swift": [1518655890, 0]
+  "/Users/oleksandrrudavka/Developer/RanDice/RanDice/Controllers/MainWindowController.swift": [1519157624, 0]
+  "/Users/oleksandrrudavka/Developer/RanDice/RanDice/AppDelegate.swift": [1519159939, 0]

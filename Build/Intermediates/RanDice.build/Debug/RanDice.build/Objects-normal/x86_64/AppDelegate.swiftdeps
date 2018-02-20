@@ -10,10 +10,16 @@ provides-dynamic-lookup:
 - "applicationWillTerminate"
 depends-top-level:
 - "AppDelegate"
+- "CastingPrecedence"
+- !private "Int"
 - "NSApplicationDelegate"
+- !private "NSExpression"
 - "NSObject"
 - "Notification"
+- !private "StringLiteralType"
 depends-member:
+- !private ["7RanDice11AppDelegateC", "Int"]
+- !private ["7RanDice11AppDelegateC", "NSExpression"]
 - ["7RanDice11AppDelegateC", "Notification"]
 - ["7RanDice11AppDelegateC", "application"]
 - ["7RanDice11AppDelegateC", "applicationDidBecomeActive"]
@@ -39,6 +45,8 @@ depends-member:
 - ["7RanDice11AppDelegateC", "applicationWillUpdate"]
 - ["7RanDice11AppDelegateC", "deinit"]
 - ["7RanDice11AppDelegateC", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "NSExpression"]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidChangeOcclusionState"]
@@ -61,8 +69,12 @@ depends-member:
 - ["s7CVarArgP", "applicationWillTerminate"]
 - ["s7CVarArgP", "applicationWillUnhide"]
 - ["s7CVarArgP", "applicationWillUpdate"]
+- !private ["s7CVarArgP", "expressionValue"]
 - !private ["s7CVarArgP", "init"]
 - ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSExpression"]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidChangeOcclusionState"]
@@ -85,8 +97,12 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillUnhide"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillUpdate"]
+- !private ["s28CustomDebugStringConvertibleP", "expressionValue"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSExpression"]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "applicationDidChangeOcclusionState"]
@@ -109,8 +125,12 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
 - ["s23CustomStringConvertibleP", "applicationWillUnhide"]
 - ["s23CustomStringConvertibleP", "applicationWillUpdate"]
+- !private ["s23CustomStringConvertibleP", "expressionValue"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "NSExpression"]
 - ["s9EquatableP", "application"]
 - ["s9EquatableP", "applicationDidBecomeActive"]
 - ["s9EquatableP", "applicationDidChangeOcclusionState"]
@@ -133,8 +153,13 @@ depends-member:
 - ["s9EquatableP", "applicationWillTerminate"]
 - ["s9EquatableP", "applicationWillUnhide"]
 - ["s9EquatableP", "applicationWillUpdate"]
+- !private ["s9EquatableP", "expressionValue"]
 - !private ["s9EquatableP", "init"]
 - ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "NSExpression"]
 - ["s8HashableP", "application"]
 - ["s8HashableP", "applicationDidBecomeActive"]
 - ["s8HashableP", "applicationDidChangeOcclusionState"]
@@ -157,8 +182,12 @@ depends-member:
 - ["s8HashableP", "applicationWillTerminate"]
 - ["s8HashableP", "applicationWillUnhide"]
 - ["s8HashableP", "applicationWillUpdate"]
+- !private ["s8HashableP", "expressionValue"]
 - !private ["s8HashableP", "init"]
 - ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So21NSApplicationDelegateP", "NSExpression"]
 - ["So21NSApplicationDelegateP", "application"]
 - ["So21NSApplicationDelegateP", "applicationDidBecomeActive"]
 - ["So21NSApplicationDelegateP", "applicationDidChangeOcclusionState"]
@@ -182,6 +211,17 @@ depends-member:
 - ["So21NSApplicationDelegateP", "applicationWillUnhide"]
 - ["So21NSApplicationDelegateP", "applicationWillUpdate"]
 - ["So21NSApplicationDelegateP", ""]
+- !private ["So8NSCodingP", "expressionValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "expressionValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So12NSExpressionC", "expressionValue"]
+- !private ["So12NSExpressionC", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSExpression"]
 - ["So8NSObjectC", "Notification"]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
@@ -205,8 +245,10 @@ depends-member:
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "applicationWillUnhide"]
 - ["So8NSObjectC", "applicationWillUpdate"]
+- !private ["So8NSObjectC", "expressionValue"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "NSExpression"]
 - ["So16NSObjectProtocolP", "application"]
 - ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
 - ["So16NSObjectProtocolP", "applicationDidChangeOcclusionState"]
@@ -229,8 +271,30 @@ depends-member:
 - ["So16NSObjectProtocolP", "applicationWillTerminate"]
 - ["So16NSObjectProtocolP", "applicationWillUnhide"]
 - ["So16NSObjectProtocolP", "applicationWillUpdate"]
+- !private ["So16NSObjectProtocolP", "expressionValue"]
 - !private ["So16NSObjectProtocolP", "init"]
 - ["So16NSObjectProtocolP", ""]
+- !private ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardWritingP", "init"]
+- !private ["So14NSSecureCodingP", "expressionValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSExpression"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidChangeOcclusionState"]
@@ -253,19 +317,63 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillUnhide"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillUpdate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expressionValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "7RanDice11AppDelegateC"
+- !private "s23BidirectionalCollectionP"
 - "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So21NSApplicationDelegateP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSExpressionC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
